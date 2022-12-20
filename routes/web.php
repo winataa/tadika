@@ -30,6 +30,14 @@ Route::get('/dbConfig', function () {
     return view('dbConfig');
 });
 
+Route::get('/admin', function () {
+    return view('admin/homeAdmin');
+});
+
+Route::get('/custAdmin', function () {
+    return view('admin/custAdmin');
+});
+
 Route::get('/register', [RegisController::class, 'RegisIndex']);
 Route::post('insertData', [RegisController::class, 'InsertData']);
 
