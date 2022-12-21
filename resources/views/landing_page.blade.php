@@ -67,9 +67,9 @@
           <div>
           <!-- class="row" style="height: 732px; margin-top:10px; width:auto" -->
             <div class="halaman2" style="padding-left: 50px;">
-              <div class="box_50 my-auto hero-tagline">
+              <div class="box_50 my-auto hero-tagline" data-aos="fade-right">
               <!-- <div class="col-4 my-auto hero-tagline" style="margin-left: 100px"> -->
-                  <h1><span class="fw-bold">Your One Stop <br> Solution for <br> Every Sheets</span></h1>
+                  <h1><span class="fw-bold" data-aos="fade-right" >Your One Stop <br> Solution for <br> Every Sheets</span></h1>
                   <h3><br> Percayakan laundry Anda pada Service <br> Tadika Laundry yang sudah dipercaya <br> oleh banyak customer.</h3> <br>
                   <a class="btn btn-primary tombol px-4" href="#how">Swipe Down</a>
               </div>
@@ -116,20 +116,20 @@
     <!-- How Tadika Laundry -->
     <div class="coverhow" id="how">
           <center>
-              <h1 class="judulpage" style="padding-top: 100px">How Tadika Laundry Works</h1> <br>
-              <p class="isi" style="padding-bottom: -50px">Kami berusaha semaksimal mungkin untuk layanan laundry kami</p>
+              <h1 class="judulpage" style="padding-top: 100px" data-aos="fade-down">How Tadika Laundry Works</h1> <br>
+              <p class="isi" style="padding-bottom: -50px" data-aos="fade-down">Kami berusaha semaksimal mungkin untuk layanan laundry kami</p>
           </center>
 
         <div class="card-container">
-            <div class="card card-how">
+            <div class="card card-how"  data-aos="zoom-in" >
                 <div class="card-image one"></div>
-                    <div class="card-text text-how">
+                    <div class="card-text text-how" >
                     <span class="name">Order</span>
                     <p>Pesan laundry dan pilih jenis <br> laundry Anda.</p>
                 </div>
             </div>
     
-            <div class="card card-how">
+            <div class="card card-how" data-aos="zoom-in">
                 <div class="card-image two"></div>
                     <div class="card-text text-how">
                     <span class="name">Wait</span>
@@ -137,7 +137,7 @@
                 </div>
             </div>
     
-            <div class="card card-how">
+            <div class="card card-how" data-aos="zoom-in">
                 <div class="card-image three"></div>
                     <div class="card-text text-how">
                     <span class="name">Deliver</span>
@@ -150,7 +150,7 @@
     <!--Varian Section -->
     <section id="varian" class="varian">
         <div class="container con-var">
-          <div class="row">
+          <div class="row" data-aos="fade-right">
             <div class="col-12 text-center">
               <h1>Every Sheet Will Be Totally Clean</h1>
               <h2>Mulai dari vest kesayangan Anda, kemeja, celana, kaos <br> bahkan sepatu akan kami bersihkan dengan sepenuh hati.</h2>
@@ -159,7 +159,7 @@
           <!-- Bagian Jenis-Jenisnya -->
           <div class="row mb-5" style="margin: 50px">
             <div class="col-4">
-              <div class="card var-card">
+              <div class="card var-card" data-aos="flip-left">
                 <div  class="kategori justify-content-center" >
                   <img src="img/baju.png" class="card-img-top" alt="" style="background-color: #fff">
                   </div> 
@@ -170,7 +170,7 @@
             </div>
 
             <div class="col-4">
-              <div class="card var-card">
+              <div class="card var-card" data-aos="flip-left">
                 <div class="kategori justify-content-center" >
                   <img src="img/jeans2.png" class="card-img-top" alt="">
                 </div> 
@@ -181,7 +181,7 @@
             </div>
 
             <div class="col-4">
-              <div class="card var-card">
+              <div class="card var-card" data-aos="flip-left">
                 <div class="kategori justify-content-center my-auto" >
                   <img src="img/sepatu3.png" class="card-img-top py-auto" alt=""> 
                 </div> 
@@ -204,11 +204,11 @@
   <section class="why">
     <div class="container-bg">
       <center><div class="coverbg">
-        <center><h2 class="text-why">  Why Tadika Laundry?</h2></center>
+        <center><h2 class="text-why" data-aos="fade-down-right">  Why Tadika Laundry?</h2></center>
     
         <center>
             <div class="container-why">
-                <div class="courses-container">
+                <div class="courses-container" data-aos="fade-right">
                     <div class="course">
                         <div class="course-preview">
                             <img src="img/clean.png" alt="" width="130" height="130">
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 
-                <div class="courses-container">
+                <div class="courses-container" data-aos="fade-left">
                     <div class="course">
                         <div class="course-preview">
                             <img src="img/Quick2.png" alt="" width="130" height="130">
@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 
-                <div class="courses-container">
+                <div class="courses-container" data-aos="fade-right">
                     <div class="course">
                         <div class="course-preview">
                             <img src="img/fresh2.png" alt="" width="130" height="130">
@@ -244,7 +244,7 @@
                     </div>
                 </div>
                 
-                <div class="courses-container">
+                <div class="courses-container" data-aos="fade-left">
                     <div class="course">
                         <div class="course-preview">
                             <img src="img/trusted2.png" alt="" width="130" height="130">
