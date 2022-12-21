@@ -58,7 +58,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-2.png" alt = "product image">
+                                <img src = "img/shoe-2.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang
@@ -92,7 +92,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-3.png" alt = "product image">
+                                <img src = "img/shoe-3.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang
@@ -126,7 +126,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-4.png" alt = "product image">
+                                <img src = "img/shoe-4.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang
@@ -163,7 +163,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-5.png" alt = "product image">
+                                <img src = "img/shoe-5.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang
@@ -197,7 +197,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-6.png" alt = "product image">
+                                <img src = "img/shoe-6.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang
@@ -231,7 +231,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-7.png" alt = "product image">
+                                <img src = "img/shoe-7.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang
@@ -265,7 +265,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-8.png" alt = "product image">
+                                <img src = "img/shoe-8.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang
