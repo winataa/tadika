@@ -35,7 +35,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="statistik">
               <i class="fa-solid fa-chart-simple"></i>              
               <span class="link-name">Stats</span>
             </a>
@@ -55,7 +55,7 @@
 
 
           <li>
-            <a href="#">
+            <a href="service">
               <i class="fa-solid fa-jug-detergent"></i>
               <span class="link-name">Service</span>
             </a>
@@ -86,7 +86,8 @@
     </nav>
     @yield('hi_admin')
     @yield('hi_cust')
-
+    @yield('hi_statistik')
+    @yield('hi_service')
       </div>
     </section>
 

@@ -1,7 +1,7 @@
 
     @extends('templateLayout/template')
     @section('hi_admin')
-        <section class="dashboard">
+        <section class="dashboard" data-aos="fade-down">
         <div class="top">
           <i class="uil uil-bars sidebar-toggle"></i>
   

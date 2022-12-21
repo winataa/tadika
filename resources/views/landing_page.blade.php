@@ -28,7 +28,7 @@
   <body>
     <!-- NavBar -->
 
-  <div style="width:100%;">
+  <div style="width:100%;" data-aos="fade-down">
   <nav class="navbar navbar-expand-lg navbar-light navigasi" style="width: 100%;">
         <div class="container cnav" style="width: 100%;">
             <img src="img/logo.png" alt="Bootstrap" width="" height="76">
@@ -74,7 +74,7 @@
                   <a class="btn btn-primary tombol px-4" href="#how">Swipe Down</a>
               </div>
 
-              <div class="gambar_50">
+              <div class="gambar_50" data-aos="fade-left">
               <!-- <div class="col img-fluid"> -->
                 <img src="img/kiri.png" alt="gambar orang laundry" style="width: 100%;">
               </div>
@@ -84,6 +84,41 @@
           </div>
            
     </section>
+
+    {{-- <!-- Hero Section -->
+    <section id="hero" class="hero">
+       <div class="row atas">
+        <div class="col-lg-6">
+
+          <div class="" style="padding: 40px, text-align:center" data-aos="fade-right">
+            <!-- <div class="col-4 my-auto hero-tagline" style="margin-left: 100px"> -->
+                <h1><span class="fw-bold" data-aos="fade-right" >Your One Stop <br> Solution for <br> Every Sheets</span></h1>
+                <h3><br> Percayakan laundry Anda pada Service <br> Tadika Laundry yang sudah dipercaya <br> oleh banyak customer.</h3> <br>
+                <a class="btn btn-primary tombol px-4" href="#how">Swipe Down</a>
+            </div>
+
+         
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="gambar_50" style="width: 800px" data-aos="fade-left">
+            <!-- <div class="col img-fluid"> -->
+              <img src="img/kiri.png" alt="gambar orang laundry" style="width: 100%;">
+            </div>
+
+        </div>
+
+     
+     </div>
+
+
+
+</section> --}}
+
+
+
+
 
 
     <!-- Tulisan Bergerak -->
@@ -194,7 +229,7 @@
             
           <center>
           <div>
-          <a class="btn tombolver2 px-5 text-center" style="text-align: center" href="#">What to Clean?</a>
+          <a class="btn tombolver2 px-5 text-center" style="text-align: center" href="#" data-aos="fade-down">What to Clean?</a>
         </div>
           </center>
         </div>
@@ -260,7 +295,7 @@
         </center>
     
         <center>
-        <button class="floating-btn tombol3">
+        <button class="floating-btn tombol3" data-aos="fade-down">
             See More Who Trust Us
         </button>
         </center>
@@ -283,19 +318,19 @@
 
         <!-- Bagian Jenis-Jenisnya -->
         <div class="row mb-5" style="margin: 50px">
-          <div class="col-4 fotoService">
+          <div class="col-4 fotoService" data-aos="zoom-in-up">
             <img src="img/MachineWash.png" alt="" width="166px" height="142px">
             <h1>Wash</h1>
             <h2>Mulai dari vest kesayangan Anda, kemeja, celana, kaos bahkan sepatu akan bersih.</h2>
           </div>
 
-          <div class="col-4 fotoService">
+          <div class="col-4 fotoService" data-aos="zoom-in-up">
             <img src="img/DripDry.png" alt="" width="166px" height="142px ">
             <h1>Dry</h1>
             <h2>Semua pakaian anda akan kering dengan sempurna dan tepat waktu.</h2>
           </div>
 
-          <div class="col-4 fotoService">
+          <div class="col-4 fotoService" data-aos="zoom-in-up">
             <img src="img/Iron.png" alt="" width="166px" height="142px">
             <h1>Iron</h1>
             <h2>Menggunakan setrika premium, sehingga pakaian anda akan rapi setelah kami laundry.</h2>
@@ -309,12 +344,12 @@
      
     <center>
       <div class="testi"> 
-      <div class="judultesti">
+      <div class="judultesti" data-aos="fade-up">
           <h2>Our Lovely Testimonials</h2>
       </div>
 
       <div class="container-why-2">
-          <div class="courses-container-2">
+          <div class="courses-container-2" data-aos="fade-left">
               <div class="course-2">
                   <div class="course-preview-2">
                       <img src="img/cewetesti.png" alt="" width="90" height="120">
@@ -333,7 +368,7 @@
               </div>
           </div>
           
-          <div class="courses-container-2">
+          <div class="courses-container-2" data-aos="fade-left">
               <div class="course-2">
                   <div class="course-preview-2">
                       <img src="img/cowotesti.png" alt="" width="90" height="120">
@@ -352,7 +387,7 @@
               </div>
           </div>
 
-          <div class="courses-container-2">
+          <div class="courses-container-2" data-aos="fade-left">
               <div class="course-2">
                   <div class="course-preview-2">
                       <img src="img/cewetesti.png" alt="" width="90" height="120">
@@ -377,8 +412,8 @@
     </div>
 
 
-  <div class="footermain">
-      <div class="footer-content">
+  <div class="footermain" >
+      <div class="footer-content" data-aos="fade-up">
           <center>
           <h2>More About Tadika Laundry?</h2>
               <button class="floating-button fbtn">
@@ -391,7 +426,7 @@
       </div>
 
       
-      <div class="container footer-con">
+      <div class="container footer-con" data-aos="fade-up">
           <div class="row ftr">
               <div class="footer-col">
                   <h4 class="judul-footer">Follow Our Social</h4>
@@ -429,7 +464,7 @@
           </div>
       </div>
 
-      <div class="footer-bottom">
+      <div class="footer-bottom" data-aos="fade-up">
           <center><p>&copy;2022 Tadika Mesra Ltd</p></center>
       </div>
 

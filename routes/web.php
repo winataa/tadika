@@ -41,8 +41,12 @@ Route::get('/admin', function () {
 Route::get('/custAdmin', function () {
     return view('admin/custAdmin');
 });
-Route::get('/tabel', function () {
-    return view('admin/tableAdmin');
+Route::get('/statistik', function () {
+    return view('admin/statistik');
+});
+
+Route::get('/service', function () {
+    return view('admin/serviceAdmin');
 });
 
 
