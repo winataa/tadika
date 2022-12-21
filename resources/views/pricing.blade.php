@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/pricing.css">
         <!-- font awesome -->
         <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
     </head>
@@ -21,7 +21,7 @@
                     <div class = "product">
                         <div class = "product-content">
                             <div class = "product-img">
-                                <img src = "images/shoe-1.png" alt = "product image">
+                                <img src = "img/shoe-1.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <button type = "button" class = "btn-cart"> keranjang

@@ -45,7 +45,7 @@
                 <a class="nav-link nav-l " href="#varian" style="color: #0455c0">Service</a>
               </li>
               <li class="nav-item mx-0.1">
-                <a class="nav-link nav-l " href="#service" style="color: #0455c0">Pricing</a>
+                <a class="nav-link nav-l " href="/pricing" style="color: #0455c0">Pricing</a>
               </li>
               <li class="nav-item mx-0.1">
                 <a class="nav-link nav-l " href="#" style="color: #0455c0">FAQ</a>
