@@ -120,14 +120,17 @@ nav .menu-items {
     text-decoration: none;
     position: relative;
 }
-.nav-links li a:hover:before {
+.nav-kiri li a:hover:before {
     content: "";
     position: absolute;
-    left: -7px;
     height: 5px;
     width: 5px;
     border-radius: 50%;
     background-color: var(--primary-color);
+}
+
+.nav-kiri {
+    padding-left: 0;
 }
 body.dark li a:hover:before {
     background-color: var(--text-color);
@@ -142,7 +145,7 @@ body.dark li a:hover:before {
     color: var(--black-light-color);
     margin-right: 20px;
 }
-.nav-links img {
+.nav-kiri img {
     size: 50%;
 }
 .menu-items li a .link-name {
@@ -155,18 +158,20 @@ nav.close li a .link-name {
     opacity: 0;
     pointer-events: none;
 }
-.nav-links li a:hover i,
-.nav-links li a:hover .link-name {
+.nav-kiri li a:hover i,
+.nav-kiri li a:hover .link-name {
     color: var(--primary-color);
 }
-body.dark .nav-links li a:hover i,
-body.dark .nav-links li a:hover .link-name {
+body.dark .nav-kiri li a:hover i,
+body.dark .nav-kiri li a:hover .link-name {
     color: var(--text-color);
 }
 .menu-items .logout-mode {
     padding-top: 10px;
     border-top: 1px solid var(--border-color);
+    padding-left: 0;
 }
+
 .menu-items .mode {
     display: flex;
     align-items: center;
@@ -217,7 +222,7 @@ body.dark .switch:before {
 }
 nav.close ~ .dashboard {
     left: 73px;
-    width: calc(100% - 75px);
+    width: calc(100% - 100px);
 }
 .dashboard .top {
     position: fixed;
@@ -255,6 +260,12 @@ nav.close ~ .dashboard .top {
     margin: 0 30px;
 }
 
+.dashboard .top h1 {
+    font-size: 50px;
+    color: #0455c0;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
 .dashboard .top .search-box {
     position: relative;
     align-items: center;
@@ -294,16 +305,19 @@ nav.close ~ .dashboard .top {
     padding-top: 50px;
     margin-left: 30px;
 }
-.dash-content .title {
+.dash-content .overview .title-admin {
     align-items: center;
     margin: 60px 0 30px 0;
+    font-family: "Inter", sans-serif;
 }
 
-.dash-content .title h1 {
+.dash-content .title-admin h1 {
     font-size: 50px;
     color: #0455c0;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
 }
-.dash-content .title h2 {
+.dash-content .title-admin h2 {
     font-size: 20px;
     color: #838fa7;
 }
@@ -323,16 +337,16 @@ nav.close ~ .dashboard .top {
     text-decoration: none;
 }
 
-.dash-content .boxes {
+.dash-content .boxes-atas .atas {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.dash-content .boxes .box {
+.dash-content .boxes-atas .box {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 350px;
+    width: 300px;
     padding: 15px 20px;
     background-color: #0455c0;
     transition: var(--tran-05);
@@ -340,24 +354,23 @@ nav.close ~ .dashboard .top {
     box-shadow: 0px 24px 36px rgba(4, 85, 192, 0.24);
     border-radius: 20px;
 }
-.boxes .box i {
+.dash-content .overview .boxes-atas .box i {
     font-size: 35px;
     color: #fff;
     padding: 15px;
 }
-.boxes .box .text {
+.dash-content .overview .boxes-atas .box .text-kotak {
     white-space: nowrap;
     color: #fff;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
-.boxes .box.box2 {
-    background-color: #0455c0;
+.dash-content .overview .boxes-atas .box .text-kotak h1 {
+    font-size: 24px;
 }
-
 .garis hr {
     margin-top: 20px;
     max-width: 1400px;
@@ -366,9 +379,12 @@ nav.close ~ .dashboard .top {
     border: 3px solid #0455c0;
 }
 
-.activity .title h1 {
-    font-size: 50px;
+.activity .title-act {
     color: #0455c0;
+}
+.activity .title-act h1 {
+    font-size: 50px;
+    font-weight: 700;
 }
 
 @media (max-width: 1000px) {
@@ -414,15 +430,15 @@ nav.close ~ .dashboard .top {
         overflow-x: scroll;
     }
 }
-
+/* 
 @media (max-width: 780px) {
-    .dash-content .boxes .box {
+    .dash-content .boxes-atas .box {
         width: calc(100% / 2 - 15px);
         margin-top: 15px;
     }
 }
 @media (max-width: 560px) {
-    .dash-content .boxes .box {
+    .dash-content .boxes-atas .box {
         width: 100%;
     }
 }
@@ -465,4 +481,4 @@ nav.close ~ .dashboard .top {
         left: 0;
         width: 100%;
     }
-}
+} */

@@ -37,6 +37,10 @@ Route::get('/admin', function () {
 Route::get('/custAdmin', function () {
     return view('admin/custAdmin');
 });
+Route::get('/tabel', function () {
+    return view('admin/tableAdmin');
+});
+
 
 Route::get('/register', [RegisController::class, 'RegisIndex']);
 Route::post('insertData', [RegisController::class, 'InsertData']);

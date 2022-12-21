@@ -22,6 +22,8 @@
     <title>Tadika Laundry</title>
     <link rel="icon" href="img/logo.png" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
     <!-- NavBar -->
@@ -269,10 +271,10 @@
   </section>
 
     <!-- Service -->
-    <section id="service"> 
+    <section id="service "> 
       <div class="container mt-5">
         <div class="service"> 
-        <div class="row">
+        <div class="row " data-aos="fade-up">
           <div class="col-12 text-center">
             <h1>Our Main Services</h1>
           </div>
@@ -434,5 +436,9 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

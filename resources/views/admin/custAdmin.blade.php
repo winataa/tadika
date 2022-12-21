@@ -13,7 +13,7 @@
 
     <div class="dash-content">
       <div class="overview">
-        <div class="title">
+        <div class="title-admin">
           <div class="garis" style="margin-top: -20px">
             <hr>
           </div>
