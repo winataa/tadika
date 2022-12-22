@@ -4,7 +4,7 @@
         <section class="dashboard" data-aos="fade-down">
         <div class="top">
           <i class="uil uil-bars sidebar-toggle"></i>
-  
+          <h1 style="color:transparent">Statistic</h1>
           <div class="search-box">
             <i class="uil uil-search"></i>
             <input type="text" placeholder="Search here..." />

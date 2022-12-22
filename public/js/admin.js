@@ -30,3 +30,7 @@ sidebarToggle.addEventListener("click", () => {
         localStorage.setItem("status", "open");
     }
 });
+
+$(document).ready(function () {
+    $("#example").DataTable();
+});

@@ -1,10 +1,10 @@
 @extends('templateLayout/template')
-@section('hi_statistik')
+@section('hi_orderAdmin')
 <section class="dashboard" data-aos="fade-down">
     <div class="top">
       
       <i class="uil uil-bars sidebar-toggle"></i>
-      <h1>Statistic</h1>
+      <h1>Order</h1>
       <div class="search-box">
         <i class="uil uil-search"></i>
         <input type="text" placeholder="Search here..." />

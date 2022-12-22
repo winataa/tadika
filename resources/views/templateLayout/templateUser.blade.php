@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--=== Coding by CodingLab | www.codinglabweb.com === -->
 <html lang="en">
@@ -7,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="css/admin.css" />
+    <link rel="stylesheet" href="css/user.css" />
 
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e10401adfd.js" crossorigin="anonymous"></script>
 
-    <title>Admin Dashboard Panel</title>
+    <title>User Dashboard Panel</title>
   </head>
   <body>
     <nav>
@@ -29,35 +30,27 @@
       <div class="menu-items">
         <ul class="nav-kiri">
           <li>
-            <a href="admin">
-              <i class="fa-sharp fa-solid fa-house"></i>
-              <span class="link-name">Home</span>
+            <a href="user">
+              <i class="fa-solid fa-user"></i>
+              <span class="link-name">My Account</span>
             </a>
           </li>
           <li>
-            <a href="statistik">
-              <i class="fa-solid fa-chart-simple"></i>              
-              <span class="link-name">Stats</span>
+            <a href="order">
+              <i class="fa-solid fa-basket-shopping"></i>            
+              <span class="link-name">My Orders</span>
             </a>
           </li>
           <li>
-            <a href="orderadmin">
-              <i class="fa-solid fa-basket-shopping"></i>
-              <span class="link-name">Orders</span>
+            <a href="payment">
+              <i class="fa-regular fa-credit-card"></i>
+              <span class="link-name">Payment</span>
             </a>
           </li>
           <li>
-            <a href="custAdmin">
-              <i class="fa-solid fa-person"></i>
-              <span class="link-name">Custs</span>
-            </a>
-          </li>
-
-
-          <li>
-            <a href="service">
-              <i class="fa-solid fa-jug-detergent"></i>
-              <span class="link-name">Service</span>
+            <a href="notif">
+              <i class="fa-regular fa-bell"></i>
+              <span class="link-name">Notifications</span>
             </a>
           </li>
 
@@ -84,11 +77,11 @@
         </ul>
       </div>
     </nav>
-    @yield('hi_admin')
-    @yield('hi_cust')
-    @yield('hi_statistik')
-    @yield('hi_service')
-    @yield('hi_orderAdmin')
+    @yield('hi_user')
+    @yield('hi_orders')
+    @yield('hi_payment')
+    @yield('hi_notif')
+    
       </div>
     </section>
 

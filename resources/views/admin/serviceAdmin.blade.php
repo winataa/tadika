@@ -15,11 +15,15 @@
     <div class="dash-content">
       <div class="overview">
         <div class="title-admin">
-          <div class="garis" style="margin-top: -20px">
+          {{-- <div class="garis" style="margin-top: -20px">
             <hr>
-          </div>
-          <!-- TABEL-->
+          </div> --}}
+      
+            </div>
         </div>
+          
+
+
       </div>
   </section>
 

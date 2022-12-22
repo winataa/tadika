@@ -49,6 +49,26 @@ Route::get('/service', function () {
     return view('admin/serviceAdmin');
 });
 
+Route::get('/orderadmin', function () {
+    return view('admin/orderAdmin');
+});
+
+Route::get('/user', function () {
+    return view('user/homeUser');
+});
+
+Route::get('/notif', function () {
+    return view('user/notifUser');
+});
+
+Route::get('/order', function () {
+    return view('user/orderUser');
+});
+
+Route::get('/payment', function () {
+    return view('user/paymentUser');
+});
+
 
 Route::get('/register', [RegisController::class, 'RegisIndex']);
 Route::post('insertData', [RegisController::class, 'InsertData']);

@@ -236,7 +236,6 @@ nav.close ~ .dashboard {
     background-color: var(--panel-color);
     transition: var(--tran-05);
     z-index: 10;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 0px -2px;
 }
 
 .dashboard .top h1 {
@@ -306,92 +305,110 @@ nav.close ~ .dashboard .top {
     padding-top: 50px;
     margin-left: 30px;
 }
-.dash-content .overview .title-admin {
+.dash-content .overview .title-user {
     align-items: center;
     margin: 60px 0 30px 0;
     font-family: "Inter", sans-serif;
 }
 
-.dash-content .title-admin h1 {
+.dash-content .title-user img {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+}
+
+.dash-content .title-user img h1 {
     font-size: 50px;
     color: #0455c0;
     font-weight: 700;
     font-family: "Inter", sans-serif;
 }
-.dash-content .title-admin h2 {
-    font-size: 20px;
-    color: #838fa7;
-}
 
-.tombol-add {
-    background-color: #0455c0;
-    color: white;
-    border-radius: 60px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 30px;
+.dash-content .overview .title-orders {
     align-items: center;
-    text-align: center;
-    border-color: #0455c0;
-    padding: 10px;
-    filter: drop-shadow(0px 18px 24px rgba(4, 85, 192, 0.24));
-    text-decoration: none;
+    margin: 60px 0 30px 0;
+    font-family: "Inter", sans-serif;
 }
 
-.dashboard .top .tombol {
-    border-radius: 40px;
-    text-transform: uppercase;
-    font-size: 20px;
-    background-color: #0455c0;
-    display: inline-block;
-}
-
-.dashboard .top .tombol:hover {
-    font-weight: 700;
-    transform: scale(1.1);
-}
-
-.dash-content .boxes-atas .atas {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.dash-content .boxes-atas .box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 300px;
-    padding: 15px 20px;
-    background-color: #0455c0;
-    transition: var(--tran-05);
-    margin-left: 15px;
-    box-shadow: 0px 24px 36px rgba(4, 85, 192, 0.24);
-    border-radius: 20px;
-}
-.dash-content .overview .boxes-atas .box i {
+.dash-content .title-orders h2 {
     font-size: 35px;
-    color: #fff;
-    padding: 15px;
-}
-.dash-content .overview .boxes-atas .box .text-kotak {
-    white-space: nowrap;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: 10px;
+    color: #0455c0;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
 
-.dash-content .overview .boxes-atas .box .text-kotak h1 {
-    font-size: 24px;
+.dash-content .title-payment h2 {
+    font-size: 35px;
+    color: #0455c0;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
-.garis hr {
-    margin-top: 20px;
-    max-width: 1400px;
-    height: 0px;
-    left: 280px;
-    border: 3px solid #0455c0;
+.dash-content .title-notif h1 {
+    font-size: 50px;
+    color: #0455c0;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
 }
+.btn {
+	background-color: #0455c0;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: #0059ce;
+	border: 1px solid #164772;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: center;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-btn:hover {
+	background-color: #96B9D9;
+	color: #0455c0;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+.floating-text {
+	background-color: #0455c0;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #0455c0;
+	text-decoration: none;
+}
+
 
 .activity .title-act {
     color: #0455c0;
